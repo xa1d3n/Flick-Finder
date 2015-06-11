@@ -13,6 +13,7 @@
 		B3B229271B290444006A04B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B229261B290444006A04B7 /* Images.xcassets */; };
 		B3B2292A1B290444006A04B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B229281B290444006A04B7 /* LaunchScreen.xib */; };
 		B3B229361B290444006A04B7 /* Flick_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B229351B290444006A04B7 /* Flick_FinderTests.swift */; };
+		B3B229401B290B12006A04B7 /* Johann_Sebastian_Bach.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B2293F1B290B12006A04B7 /* Johann_Sebastian_Bach.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B3B2292F1B290444006A04B7 /* Flick FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flick FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B229341B290444006A04B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3B229351B290444006A04B7 /* Flick_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flick_FinderTests.swift; sourceTree = "<group>"; };
+		B3B2293F1B290B12006A04B7 /* Johann_Sebastian_Bach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Johann_Sebastian_Bach.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				B3B229211B290444006A04B7 /* ViewController.swift */,
 				B3B229231B290444006A04B7 /* Main.storyboard */,
 				B3B229261B290444006A04B7 /* Images.xcassets */,
+				B3B2293F1B290B12006A04B7 /* Johann_Sebastian_Bach.png */,
 				B3B229281B290444006A04B7 /* LaunchScreen.xib */,
 				B3B2291D1B290444006A04B7 /* Supporting Files */,
 			);
@@ -156,6 +159,7 @@
 		B3B229121B290444006A04B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Aldin Fajic";
 				TargetAttributes = {
@@ -192,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B229401B290B12006A04B7 /* Johann_Sebastian_Bach.png in Resources */,
 				B3B229251B290444006A04B7 /* Main.storyboard in Resources */,
 				B3B2292A1B290444006A04B7 /* LaunchScreen.xib in Resources */,
 				B3B229271B290444006A04B7 /* Images.xcassets in Resources */,
@@ -409,6 +414,7 @@
 				B3B2293B1B290444006A04B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3B2293C1B290444006A04B7 /* Build configuration list for PBXNativeTarget "Flick FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				B3B2293E1B290444006A04B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

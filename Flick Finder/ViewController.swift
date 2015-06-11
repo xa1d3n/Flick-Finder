@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var placeField: UITextField!
+    @IBOutlet weak var latitude: UITextField!
+    @IBOutlet weak var longitude: UITextField!
+    @IBOutlet weak var imgDisplay: UIImageView!
+    @IBOutlet weak var imgTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
